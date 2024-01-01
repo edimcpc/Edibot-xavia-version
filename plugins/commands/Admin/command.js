@@ -6,6 +6,9 @@ const config = {
   aliases: ["cmd"],
   description: "Menambah atau menghapus file dalam folder tertentu",
   usage: ".command add (nama_folder) | (nama_file) | (isi_file) \n.command del (nama_folder) | (nama_file)",
+  permissions: [2],
+  credits: "XaviaTeam",
+  isAbsolute: true,
 };
 
 async function onCall({ message }) {
